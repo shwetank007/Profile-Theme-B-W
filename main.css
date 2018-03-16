@@ -55,7 +55,7 @@ body {
     font-size: 30px;
 }
 
-.line-break-about {
+.line-break-black {
     width: 25%;
     border-width: 4px;
     border-color: #000000;
@@ -77,6 +77,37 @@ body {
     padding-top: 50px; 
 }
 
+.project-list a {
+    color: #ffffff;
+}
+
 .project-list h4 {
     text-align: center; 
+}
+
+.contact {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px
+}
+
+.contact-white-section {
+    height: 25vh;
+    background-color: #ffffff;
+}
+
+.contact-icons {
+    overflow: hidden;
+    white-space: nowrap;
+    padding-left: 0px;
+}
+
+.contact-icons li {
+    display: inline-block;
+    margin: 2px 18px;
+    padding-top: 10px;
+}
+
+.contact-icons li a {
+    color: #4a4949eb;
 }
