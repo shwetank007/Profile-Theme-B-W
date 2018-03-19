@@ -129,3 +129,9 @@ body {
 .arrow-icons-black {
     color: #ffffff;
 }
+
+.about-me-icons {
+    text-align: center;
+    padding-top: 60px;
+    font-size: 30px;
+}
