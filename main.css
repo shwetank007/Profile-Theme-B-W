@@ -3,13 +3,11 @@ body {
 }
 
 .black-section {
-    height: 100vh;
     background-color: #4a4949;
     color: #ffffff;
 }
 
 .white-section {
-    height: 100vh;
     background-color: #ffffff;
 }
 
@@ -30,13 +28,13 @@ body {
     white-space: nowrap;
     padding-top: 10px;
     padding-left: 0px;
-    font-size: xx-large;
+    font-size: 15px;
     margin-top: 6rem;
 }
 
 .nav-menu li {
     display: inline-block;
-    padding: 10px;
+    padding: 10px 0px;
     margin: 0px 18px;
 }
 
@@ -52,8 +50,8 @@ body {
 
 .about-me {
     text-align: center;
-    padding-top: 180px;
-    font-size: 30px;
+    padding-top: 80px;
+    font-size: 15px;
 }
 
 .line-break-black {
@@ -76,6 +74,7 @@ body {
 
 .project-list {
     padding-top: 50px; 
+    text-align: center;
 }
 
 .project-list a {
@@ -119,7 +118,8 @@ body {
 
 .arrow-setting {
     text-align: center;
-    padding-top: 70px;
+    padding-top: 62px;
+    padding-bottom: 20px;
 }
 
 .arrow-icons {
@@ -132,6 +132,46 @@ body {
 
 .about-me-icons {
     text-align: center;
-    padding-top: 60px;
+    padding-top: 54px;
     font-size: 30px;
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width:768px) {
+    .black-section {
+        height: 100vh;
+    }
+    
+    .white-section {
+        height: 100vh;
+    }
+
+    .nav-menu {
+        font-size: xx-large;
+    }
+
+    .nav-menu li {
+        padding: 10px;
+    }
+
+    .project-list {
+        padding-top: 50px; 
+    }
+    
+    .about-me-icons {
+        text-align: center;
+        padding-top: 60px;
+        font-size: 30px;
+    }
+
+    .about-me {
+        text-align: center;
+        padding-top: 180px;
+        font-size: 30px;
+    }
+
+    .arrow-setting {
+        text-align: center;
+        padding-top: 70px;
+    }
 }
